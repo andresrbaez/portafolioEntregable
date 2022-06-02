@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #020403;
+    font-family: 'Rubik', sans-serif;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+}
+
+nav ul>li{
+    padding: .5rem 1rem;
+    border: 2px solid transparent;
+}
