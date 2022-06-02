@@ -9,16 +9,27 @@ body{
     font-family: 'Rubik', sans-serif;
 }
 
-nav ul{
+nav{
     display: flex;
-    list-style: none;
-    align-items: center;
-    flex-direction: row;
-    justify-content: space-around;
-    color: white;
+    flex-wrap: wrap;
 }
 
-nav ul>li{
-    padding: .5rem 1rem;
-    border: 2px solid transparent;
+.rectangulo{
+    display: flex;
+    align-self: center;
+}
+
+.primerTitulo{
+    display: flex;
+    align-self: center;
+}
+
+.segundoTitulo{
+    display: flex;
+    align-self: center;
+}
+
+.redesSociales{
+    display: flex;
+    align-self: center;
 }
