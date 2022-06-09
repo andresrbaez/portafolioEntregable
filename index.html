@@ -14,8 +14,15 @@
     
 </head>
 <body>
+
+    <!-- Lo primero es la NAV BAR -->
     <header>
         <nav>
+            <input type="checkbox" id="menu-hamburguesa"> <!-- Se debe mantener este orden, 1. menu-hamb y 2. label-->
+            <label for="menu-hamburguesa">
+                <img class="icon-color" src="./assets/design/Portafolio 7/menu 1.svg" alt="">
+            </label>
+            
             <ul>
                 <li>Home</li>
                 <li>Acerca de mi</li>
@@ -25,30 +32,38 @@
                 <li>Contacto</li>
             </ul>
         </nav>
-    </header>
-    <br>
-    <br>
-    <br>
-    <br>
-    <div class="presentacion">
-        <img class="rectangulo" src="./design/Portafolio 7/Rectangle 45.png" alt="">
-        <br>
-        <div>
-            <h2 class="primerTitulo">Hola, soy Andrés</h2>
-            <h1 class="segundoTitulo">Diseñador y desarrollador web</h1>
-            <div>
-                <div>
-                    <img class="redesSociales" src="./design/Portafolio 7/cib_linkedin-in.svg" alt="">
-                </div>
-                <div>
-                    <img class="redesSociales" src="./design/Portafolio 7/ant-design_instagram-filled.svg" alt="">
-                </div>
-                <div>
-                    <img class="redesSociales" src="./design/Portafolio 7/ant-design_twitter-outlined.svg" alt="">
-                </div>
+
+        <!-- Comienza información de header -->
+
+        <section class="seccion-principal">
+            <div> <!-- este div contiene la imagen personal -->
+                <img class="imagen-presentacion" src="./assets/images/selfie.png" alt="">
             </div>
-        </div>
-    </div>
-    
+            <div class="contenedor-h2"> <!-- este div contiene la pequeña presentacion -->
+                <h2>Hola, soy Andrés</h2>
+            </div>
+            <div class="contenedor-h1">
+                <h1>
+                    <p>Diseñador y 
+                        <br>
+                        desarrollador 
+                        web
+                    </p>
+                </h1>
+            </div>
+            <div class="redes-sociales"> <!-- este div contiene los iconos de redes sociales -->
+                <img src="./assets/design/Portafolio 7/cib_linkedin-in.svg" alt="">
+                <img src="./assets/design/Portafolio 7/ant-design_instagram-filled.svg" alt="">
+                <img src="./assets/design/Portafolio 7/ant-design_twitter-outlined.svg" alt="">
+            </div>
+            <!--<div class="contenedor-ultimo">
+                <img class="lineas-fondo-2" src="./assets/design/Portafolio 7/Group 99.svg" alt="">
+            </div> -->
+        </section>
+    </header>
+    <section class="section-secundario">
+        <h2 class="about">Acerca de mí</h2>
+        <p class="texto-alinear">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores laudantium maxime repellendus. Repudiandae corrupti recusandae ratione quis iste illum consequatur quam fugiat reiciendis, ipsum similique dolores vitae aspernatur, eaque facere.</p>
+    </section>
 </body>
 </html>
