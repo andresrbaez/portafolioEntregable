@@ -30,6 +30,13 @@ h2{
     font-weight: 500;
 }
 
+h3{
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -72,11 +79,12 @@ input#menu-hamburguesa:checked ~ ul{
 
 .seccion-principal{
     position: relative;
-    background-image: url("../design/Portafolio 7/Group 98.svg");
+    background-image: url("../design/Portafolio 7/Group 99.svg");
     bottom: 100px;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+    background-size: 100%;
 
 }
 
@@ -91,15 +99,6 @@ input#menu-hamburguesa:checked ~ ul{
     margin-left: -100px;
     margin-top: 30px;
 }
-
-/* .lineas-fondo-1{
-    position: absolute;
-    padding: 0;
-    margin: 0;
-    z-index: -1;
-    width: 100%;
-    height: auto;
-} */
 
 .contenedor-h2{
     display: flex;
@@ -127,25 +126,14 @@ input#menu-hamburguesa:checked ~ ul{
 
 }
 
-/*.lineas-fondo-2{
-    position: absolute;
-
-    padding: 0;
-    margin: 0;
-    width: 100%;
-    height: auto;
-    z-index: -1; 
-}*/
-
-/* .contenedor-ultimo{
-    height: 100px;
-} */
-
 
 /* En este punto entra la seccion sobre mi */
 
+.section{
+    padding: 1rem;
+}
 
-.section-secundario{
+.seccion-about{
     position: relative;
     color: white;
     background-image: url("../design/Portafolio 7/Group 99.svg");
@@ -153,35 +141,103 @@ input#menu-hamburguesa:checked ~ ul{
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+    background-size: 100%;
 }
 
-.about{
-    /* position: absolute; */
-    padding: 1rem;
-    font-family: 'Rubik', sans-serif;
-    font-size: 35px;
-    /* top: 100px; */
-    margin: 10px;
-    color:white
+.section-about>p{
+    padding: .25rem 1.5rem;
+    margin: 1rem 0;
 }
 
-.texto-alinear{
-    /* padding: 1rem;
-    position: absolute;
-    margin: 25px;
-    top: 150px; */
-    text-align: center;
-}
+
 
 /* un div para el circulo del fondo */
 
-/* .circulo{
-    position: absolute;
-    padding: 0;
-    margin: 0;
-    width: 100%;
-    height: auto;
-} */
+.sociales{ 
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+    color: white;
+}
+
+.mobie-card,
+.motion-card,
+.sistemas-card,
+.desarrollo-card{
+    padding: 1rem;
+    text-align: center;
+}
+
+
+.mobile-img,
+.motion-img,
+.sistemas-img,
+.desarrollo-img {
+    width: 60px;
+    height: 60px;
+    background-color: #1c1616;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: .75rem auto;
+}
+
+.social-icon{
+    width: 40px;
+    height: 40px;
+}
+
+
+/* SECCION DE EXPERIENCIA */
+
+.cards-experiencia{
+    color: white;
+}
+
+/* SECCION DE CONTACTO */
+
+/* esta clase me permite establecer los íconos de manera correcta */
+.contacto{ 
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+    color: white;
+}
+
+/* estas clases son para las cards */
+
+.contacto-card,
+.email-card{
+    padding: 1rem;
+    text-align: center;
+}
+
+.contacto-img,
+.email-img{
+    background-color: var(--background-color);
+    border: 1px solid white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: .75rem auto;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
