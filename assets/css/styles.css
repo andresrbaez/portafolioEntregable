@@ -4,10 +4,16 @@
     box-sizing: border-box;
 }
 
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
 :root{
     --background-color: #020403;
     --accent-color: #ADADAD;
 }
+
 
 body{
     background-color: var(--background-color);
@@ -153,6 +159,7 @@ input#menu-hamburguesa:checked ~ ul{
     margin: 1rem 0;
     display: flex;
     justify-content: center;
+    color: var(--accent-color);
 }
 
 
