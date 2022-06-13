@@ -24,12 +24,25 @@
             </label>
             
             <ul>
-                <li>Home</li>
-                <li>Acerca de mi</li>
-                <li>Mis habilidades</li>
-                <li>Experiencia</li>
-                <li>Portafolio</li>
-                <li>Contacto</li>
+                <a href="">
+                    <li>Home</li>
+                </a>
+                <a href="#s-about">
+                    <li>Acerca de mi</li>
+                </a>
+                <a href="#s-habilidades">
+                    <li>Mis habilidades</li>
+                </a>
+                <a href="#s-experiencia">
+                    <li>Experiencia</li>
+                </a>
+                <a href="#s-portafolio">
+                    <li>Portafolio</li>
+                </a>
+                <a href="#s-contacto">
+                    <li>Contacto</li>
+                </a>
+
             </ul>
         </nav>
 
@@ -52,9 +65,15 @@
                 </h1>
             </div>
             <div class="redes-sociales"> <!-- este div contiene los iconos de redes sociales -->
-                <img src="./assets/design/Portafolio 7/cib_linkedin-in.svg" alt="">
-                <img src="./assets/design/Portafolio 7/ant-design_instagram-filled.svg" alt="">
-                <img src="./assets/design/Portafolio 7/ant-design_twitter-outlined.svg" alt="">
+                <a href="https://www.linkedin.com/in/andr%C3%A9s-felipe-rodr%C3%ADguez-b%C3%A1ez-aa53a0240/">
+                    <img src="./assets/design/Portafolio 7/cib_linkedin-in.svg" alt="">
+                </a>
+                <a href="https://www.instagram.com/andresr.baez/">
+                    <img src="./assets/design/Portafolio 7/ant-design_instagram-filled.svg" alt="">
+                </a>
+                <a href="https://twitter.com/andresr_baez">
+                    <img src="./assets/design/Portafolio 7/ant-design_twitter-outlined.svg" alt="">
+                </a>
             </div>
             <!--<div class="contenedor-ultimo">
                 <img class="lineas-fondo-2" src="./assets/design/Portafolio 7/Group 99.svg" alt="">
@@ -64,14 +83,14 @@
 
     <!-- Esta sección inicia la zona de Sobre Mi -->
 
-    <section class="section seccion-about">
-        <h1>Acerca de mí</h1>
+    <section class="section seccion-about" id="s-about">
+        <h1 class="text-center">Acerca de mí</h1>
         <p class="texto-alinear">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores laudantium maxime repellendus. Repudiandae corrupti recusandae ratione quis iste illum consequatur quam fugiat reiciendis, ipsum similique dolores vitae aspernatur, eaque facere.</p>
     </section>
 
     <!-- Esta sección inicia la zona de habilidades -->
 
-    <section class="section seccion-habilidades">
+    <section class="section seccion-habilidades" id="s-habilidades">
         <h1 class="text-center">Mis habilidades</h1>
         <div class="sociales">
             <div class="mobile-card">
@@ -106,32 +125,32 @@
 
     <!-- Esta sección inicia la zona de la experiencia -->
 
-    <section class="section seccion-experiencia">
+    <section class="section seccion-experiencia" id="s-experiencia">
         <h1 class="text-center">Experiencia</h1>
         <div class="cards-experiencia">
             <div class="visual">
-                <div>
+                <div class="fechas-exp">
                     <small>2016-2018</small>
                 </div>
-                <div>
+                <div class="descrip-exp">
                     <h4>Visual Designer</h4>
                     <small>Wizeline</small>
                 </div>
             </div>
             <div class="product">
-                <div>
+                <div class="fechas-exp">
                     <small>2018-2019</small>
                 </div>
-                <div>
+                <div class="descrip-exp">
                     <h4>Product Designer</h4>
                     <small>Microsoft</small>
                 </div>
             </div>
             <div class="ui">
-                <div>
+                <div class="fechas-exp">
                     <small>2019-2021</small>
                 </div>
-                <div>
+                <div class="descrip-exp">
                     <h4>UI Engineer</h4>
                     <small>Google</small>
                 </div>
@@ -142,14 +161,19 @@
 
     <!-- Esta sección inicia la zona de portafolios -->
 
-    <section class="section seccion-portafolio">
+    <section class="section seccion-portafolio" id="s-portafolio">
         <h1 class="text-center">Portafolio</h1>
+        <div class="galeria-proyectos">
+            <img src="./assets/design/Portafolio 7/proyecto1.jpg" alt="">
+            <img src="./assets/design/Portafolio 7/proyecto2.svg" alt="">
+            <img src="./assets/design/Portafolio 7/proyecto3.jpg" alt="">
+        </div>
 
     </section>
 
-    <!-- Esta sección inica la zona de contacto y correo -->
+    <!-- Esta sección indica la zona de contacto y correo -->
 
-    <section class="section seccion-contacto">
+    <section class="section seccion-contacto" id="s-contacto">
         <h1 class="text-center">Contacto</h1>
         <div class="contacto">
             <div class="contacto-card">
@@ -168,6 +192,13 @@
             </div>
         </div>
     </section>
+
+    <!-- Esta sección contiene el Footer -->
+
+    <footer>
+        <h2>Andrés Felipe Rodríguez Báez</h2>
+        <h5>Hecho con ♥ en Academlo</h5>
+    </footer>
 
 </body>
 </html>
