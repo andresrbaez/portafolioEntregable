@@ -161,6 +161,7 @@ input#menu-hamburguesa:checked ~ ul{
     display: flex;
     justify-content: center;
     color: var(--accent-color);
+    text-align: center;
 }
 
 
@@ -457,13 +458,23 @@ footer{
     display: flex;
     justify-content: space-around;
     width: 70%;
-}
+    }
 
     .ui{
     padding: 10px;
     display: flex;
     justify-content: space-around;
     width: 70%;
-}
+    }
+
+    .texto-alinear{
+        padding: .25rem 1.5rem;
+        margin: 1rem 0;
+        display: flex;
+        justify-content: center;
+        color: var(--accent-color);
+        text-align: center;
+    }
+    
 }
 
