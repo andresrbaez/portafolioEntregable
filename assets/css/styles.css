@@ -132,7 +132,8 @@ input#menu-hamburguesa:checked ~ ul{
     justify-content: center;
     margin-top: 10px;
     gap: 30px;
-
+    position: relative;
+    z-index: 10;
 }
 
 
