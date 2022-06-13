@@ -82,18 +82,17 @@ input#menu-hamburguesa:checked ~ ul{
 /* Desde este punto empieza la segunda seccion */
 
 .seccion-principal{
-    position: relative;
-    background-image: url("../design/Portafolio 7/Group 99.svg");
-    bottom: 100px;
+    /* position: relative; */
+    background-image: url("../design/Portafolio 7/Group 98.svg");
+    /* bottom: 100px; */
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
     background-size: 100%;
-
 }
 
 .imagen-presentacion{
-    top: 90px;
+    top: 50px;
     bottom: 100px;
     display: flex;
     position: absolute;
@@ -107,7 +106,7 @@ input#menu-hamburguesa:checked ~ ul{
 .contenedor-h2{
     display: flex;
     justify-content: center;
-    padding-top: 320px;
+    padding-top: 220px;
     font-family: 'Rubik', sans-serif;
     font-size: 25px;
 }
@@ -140,13 +139,13 @@ input#menu-hamburguesa:checked ~ ul{
 .seccion-about{
     position: relative;
     color: white;
-    background-image: url("../design/Portafolio 7/Group 98.svg");
+    background-image: url("../design/Portafolio 7/Group 99.svg");
     bottom: 70px;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
-    padding-top: 70px;
+    padding-top: 150px;
 }
 
 .texto-alinear{
@@ -167,13 +166,14 @@ input#menu-hamburguesa:checked ~ ul{
     background-repeat: no-repeat;
     background-position: right;
     background-size: 60px;
-    background-position-y: initial;
+    background-position-y: 60px;
 }
 
 .seccion-experiencia{
     position: relative;
     bottom: 70px;
 }
+
 
 .seccion-portafolio{
     position: relative;
@@ -184,7 +184,6 @@ input#menu-hamburguesa:checked ~ ul{
     background-size: 80px;
     background-position-y: initial;
     background-position-x: -20px;
-
 }
 
 .seccion-contacto{
@@ -243,10 +242,14 @@ input#menu-hamburguesa:checked ~ ul{
 .product{
     border-bottom: 1px solid #ADADAD;
     padding: 10px;
+    display: flex;
+    justify-content: space-around;
 }
 
 .ui{
     padding: 10px;
+    display: flex;
+    justify-content: space-around;
 }
 
 .fechas-exp,
@@ -315,28 +318,12 @@ input#menu-hamburguesa:checked ~ ul{
 
 
 
-
-
-
-
-
-
-
-
-
-
 footer{
     padding: 1rem;
     text-align: center;
     background-color: var(--background-color);
     color: white;
 }
-
-
-
-
-
-
 
 
 
@@ -390,7 +377,7 @@ footer{
         background-repeat: no-repeat;
         background-position: right;
         background-size: 70px;
-        background-position-y: initial;
+        background-position-y: 80px;
     }
 
     .seccion-habilidades>h1{
@@ -405,5 +392,70 @@ footer{
         padding-top: 70px;
     }
 
+    .seccion-about{
+        position: relative;
+        color: white;
+        background-image: url("../design/Portafolio 7/Group 98.svg");
+        bottom: 70px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%;
+        padding-top: 70px;
+    }
+
+    .seccion-principal{
+        position: relative;
+        background-image: url("../design/Portafolio 7/Group 99.svg");
+        bottom: 100px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%;
+    }
+
+    .imagen-presentacion{
+        top: 90px;
+        bottom: 100px;
+        display: flex;
+        position: absolute;
+        width: 200px;
+        z-index: 1;
+        left: 50%;
+        margin-left: -100px;
+        margin-top: 30px;
+    }
+
+    .contenedor-h2{
+        display: flex;
+        justify-content: center;
+        padding-top: 320px;
+        font-family: 'Rubik', sans-serif;
+        font-size: 25px;
+    }
+
+    .cards-experiencia{
+        color: white;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .visual,
+    .product{
+    border-bottom: 1px solid #ADADAD;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+}
+
+    .ui{
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+}
 }
 
