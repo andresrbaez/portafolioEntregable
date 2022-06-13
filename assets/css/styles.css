@@ -89,7 +89,7 @@ input#menu-hamburguesa:checked ~ ul{
 
 .seccion-principal{
     /* position: relative; */
-    background-image: url("../design/Portafolio 7/Group 98.svg");
+    background-image: url("../design/Portafolio 7/Group 99.svg");
     /* bottom: 100px; */
     background-size: contain;
     background-repeat: no-repeat;
@@ -146,7 +146,7 @@ input#menu-hamburguesa:checked ~ ul{
 .seccion-about{
     position: relative;
     color: white;
-    background-image: url("../design/Portafolio 7/Group 99.svg");
+    /* background-image: url("../design/Portafolio 7/Group 99.svg"); */
     bottom: 70px;
     background-size: contain;
     background-repeat: no-repeat;
@@ -165,9 +165,6 @@ input#menu-hamburguesa:checked ~ ul{
 }
 
 
-
-/* un div para el circulo del fondo */
-
 .seccion-habilidades{
     position: relative;
     bottom: 70px;
@@ -178,10 +175,7 @@ input#menu-hamburguesa:checked ~ ul{
     background-position-y: 60px;
 }
 
-.seccion-experiencia{
-    position: relative;
-    bottom: 70px;
-}
+
 
 
 .seccion-portafolio{
@@ -247,6 +241,11 @@ input#menu-hamburguesa:checked ~ ul{
     flex-direction: column;
 }
 
+.seccion-experiencia{
+    position: relative;
+    bottom: 70px;
+}
+
 .visual,
 .product{
     border-bottom: 1px solid #ADADAD;
@@ -264,6 +263,12 @@ input#menu-hamburguesa:checked ~ ul{
 .fechas-exp,
 .descrip-exp{
     display: inline-block;
+}
+.fechas-exp{
+    width: 40%;
+}
+.descrip-exp{
+    width: 50%;
 }
 
 .seccion-experiencia>h1{
@@ -404,7 +409,7 @@ footer{
     .seccion-about{
         position: relative;
         color: white;
-        background-image: url("../design/Portafolio 7/Group 98.svg");
+        /* background-image: url("../design/Portafolio 7/Group 98.svg"); */
         bottom: 70px;
         background-size: contain;
         background-repeat: no-repeat;
