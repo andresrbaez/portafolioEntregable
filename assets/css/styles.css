@@ -349,6 +349,38 @@ footer{
 
 
 
+@media screen and ( min-width:370px ) {  
+    .imagen-presentacion{
+        top: 50px;
+        bottom: 100px;
+        display: flex;
+        position: absolute;
+        width: 280px;
+        z-index: 1;
+        left: 40%;
+        margin-left: -100px;
+        margin-top: 30px;
+    }
+
+}
+
+
+@media screen and ( min-width:500px ) {  
+
+    .imagen-presentacion{
+        top: 50px;
+        bottom: 100px;
+        display: flex;
+        position: absolute;
+        width: 280px;
+        z-index: 1;
+        left: 45%;
+        margin-left: -100px;
+        margin-top: 30px;
+    }
+}
+
+
 
 @media screen and ( min-width:600px ) {  
     label{
@@ -366,6 +398,17 @@ footer{
     }
     .galeria-proyectos{
         grid-template-columns: 1fr 1fr 1fr;
+    }
+    .imagen-presentacion{
+        top: 50px;
+        bottom: 100px;
+        display: flex;
+        position: absolute;
+        width: 280px;
+        z-index: 1;
+        left: 45%;
+        margin-left: -100px;
+        margin-top: 30px;
     }
 }
 
@@ -490,4 +533,5 @@ footer{
     }
     
 }
+
 
